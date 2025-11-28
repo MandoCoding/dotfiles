@@ -1,2 +1,1 @@
-# dotfiles
-my private dotfile collection heavily WIP for both the repo page and its contents
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Jetbrains+mono&pause=1000&color=F7F7F7&center=true&vCenter=true&width=435&lines=Mando's+Dotfiles;A+Streamlined+UNIX+Environment)](https://git.io/typing-svg)
