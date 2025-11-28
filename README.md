@@ -3,9 +3,9 @@
 A structured and reproducible Wayland-focused environment built around Hyprland, Neovim, and a collection of well-integrated TUI tools.
 This repository defines my daily workspace: window management, development tooling, theming, and system behavior.
 
-System & Desktop Layer
+## System & Desktop Layer
 
-Foundational components that shape the core desktop experience.
+#### Foundational components that shape the core desktop experience.
 
 - Hyprland (Wayland compositor)
 - Waybar (bar & module system)
@@ -18,7 +18,7 @@ Foundational components that shape the core desktop experience.
 - Rofi (launcher)
 - Development & Terminal Layer
 
-Tools that define the interactive and programming environment.
+#### Tools that define the interactive and programming environment.
 
 - Alacritty (terminal)
 - Neovim (editor)
