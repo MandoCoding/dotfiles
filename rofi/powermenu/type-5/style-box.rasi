@@ -1,0 +1,139 @@
+/*****----- Configuration -----*****/
+configuration {
+    show-icons:                 false;
+}
+
+/*****----- Global Properties -----*****/
+* {
+    font:                        "SF Pro Display 10";
+    background:                  rgba(5, 7, 7, 0.75);
+    background-alt:              rgba(32, 33, 34, 1.0);
+    foreground:                  #FFFFFF;
+    selected:                    rgba(0, 128, 255, 1.0);
+    active:                      #AFAFB3;
+    urgent:                      #D08261;
+}
+
+/*
+USE_BUTTONS=YES
+*/
+
+/*****----- Main Window -----*****/
+window {
+    transparency:                "real";
+    location:                    north west;
+    anchor:                      north west;
+    fullscreen:                  false;
+
+    /* 600 x 400 (h x w) */
+    height:                      110px;
+    width:                       600px;
+
+    x-offset:                    8px;
+    y-offset:                    8px;
+
+    padding:                     0px;
+    border:                      0px solid;
+    border-radius:               10px;
+    border-color:                @selected;
+    cursor:                      "default";
+    background-color:            @background;
+}
+
+/*****----- Main Box -----*****/
+mainbox {
+    enabled:                     true;
+    spacing:                     0px;
+    margin:                      0px;
+    padding:                     0px;
+    border:                      0px solid;
+    border-radius:               0px;
+    border-color:                @selected;
+    background-color:            transparent;
+    children:                    [ "inputbar", "listview" ];
+}
+
+/*****----- Inputbar -----*****/
+inputbar {
+    enabled:                     true;
+    spacing:                     0px;
+    padding:                     0px 0px;
+    background-color:            transparent;
+    children:                    [ "dummy"];
+}
+
+dummy {
+    background-color:            transparent;
+}
+
+textbox-prompt-colon {
+    enabled:                     true;
+    expand:                      false;
+    str:                         " System";
+    padding:                     12px;
+    border-radius:               5px;
+    background-color:            @background-alt;
+    text-color:                  @active;
+}
+
+prompt {
+    enabled:                     true;
+    padding:                     12px;
+    border-radius:               5px;
+    background-color:            @background-alt;
+    text-color:                  @active;
+}
+
+
+/*****----- Listview -----*****/
+listview {
+    enabled:                     true;
+
+    /* single row of 4 items */
+    columns:                     4;
+    lines:                       1;
+
+    cycle:                       true;
+    dynamic:                     false;
+    scrollbar:                   false;
+
+    /* grid behaviour: 1 row, 4 cols, left → right */
+    layout:                      vertical;
+    flow:                        horizontal;
+
+    fixed-height:                false;
+    fixed-columns:               true;
+
+    spacing:                     15px;
+    margin:                      15px;
+    background-color:            transparent;
+    cursor:                      "default";
+}
+
+/*****----- Elements (Buttons) -----*****/
+element {
+    enabled:                     true;
+
+    /* same padding both directions -> roughly square buttons in the grid */
+    padding:                     10px 10px;
+
+    border-radius:               10px;
+    background-color:            @background-alt;
+    text-color:                  @active;
+    cursor:                      pointer;
+}
+
+element-text {
+    font:                        "Jet Brains Mono 32";
+    background-color:            transparent;
+    text-color:                  inherit;
+    cursor:                      inherit;
+    vertical-align:              0.5;
+    horizontal-align:            0.5;
+}
+
+element selected.normal {
+    background-color:            @selected;
+    text-color:                  @foreground;
+}
+
