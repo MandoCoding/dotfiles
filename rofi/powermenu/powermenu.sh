@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # Current Theme
-dir="$HOME/.config/rofi/powermenu/type-5"
+dir="$HOME/.config/rofi/powermenu"
 theme='style-box'
 
 # Options
