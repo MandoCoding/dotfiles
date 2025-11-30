@@ -1,0 +1,52 @@
+{
+    "appearance": {
+        "wallcolors": {
+            "wallpaper_path": "/home/mando/Pictures/wallpaper/M3-2.png",
+            "color_scheme": "monochrome",
+            "quickselect_path": "/home/mando/Pictures/wallpaper",
+            "auto_dark": {
+                "end_hour": 1
+            }
+        }
+    },
+    "interface": {
+        "modules": {
+            "location": {},
+            "visibility": {
+                "launcher": true,
+                "window_info": false,
+                "media": false
+            },
+            "bar_id": {},
+            "options": {
+                "fixed_workspaces_enabled": false,
+                "military_time": true
+            }
+        },
+        "bar": {
+            "side": "top",
+            "density": 2,
+            "module_backgrounds": false,
+            "floating": false,
+            "vertical": false
+        },
+        "bar2": {
+            "enabled": false,
+            "floating": false,
+            "side": "top",
+            "vertical": false
+        },
+        "notifications": {},
+        "launcher": {
+            "layout": "list"
+        },
+        "misc": {
+            "screen_corners": "disabled",
+            "shell_corners": false
+        }
+    },
+    "services": {
+        "recorder": {},
+        "osd": {}
+    }
+}
