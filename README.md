@@ -20,8 +20,9 @@
 ## Simplistic by Design
 <p float="left">
   <img src="preview/8" width="48%" />
+  <img src="preview/9" width="48%" />
   <img src="preview/17" width="48%" />
-  <img src="preview/9" width="100%" />
+    <img src="preview/18" width="48%" />
 </p>
 
 ---
