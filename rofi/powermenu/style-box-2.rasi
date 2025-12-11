@@ -7,9 +7,9 @@ configuration {
 * {
     font:                        "SF Pro Display 10";
     background:                  rgba(5, 7, 7, 0.75);
-    background-alt:              rgba(38, 38, 38, 0.8);
+    background-alt:              rgba(32, 33, 34, 1.0);
     foreground:                  #FFFFFF;
-    selected:                    rgba(56, 56, 56, 0.95);
+    selected:                    rgba(0, 128, 255, 1.0);
     active:                      #AFAFB3;
     urgent:                      #D08261;
 }
@@ -26,15 +26,15 @@ window {
     fullscreen:                  false;
 
     /* 600 x 400 (h x w) */
-    height:                      120px;
-    width:                       400px;
+    height:                      110px;
+    width:                       600px;
 
     x-offset:                    8px;
     y-offset:                    8px;
 
     padding:                     0px;
     border:                      0px solid;
-    border-radius:               25px;
+    border-radius:               10px;
     border-color:                @selected;
     cursor:                      "default";
     background-color:            @background;
@@ -105,7 +105,7 @@ listview {
     fixed-columns:               true;
 
     spacing:                     15px;
-    margin:                      20px;
+    margin:                      15px;
     background-color:            transparent;
     cursor:                      "default";
 }
@@ -117,7 +117,7 @@ element {
     /* same padding both directions -> roughly square buttons in the grid */
     padding:                     10px 10px;
 
-    border-radius:               25px;
+    border-radius:               10px;
     background-color:            @background-alt;
     text-color:                  @active;
     cursor:                      pointer;
