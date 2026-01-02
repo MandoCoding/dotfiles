@@ -4,25 +4,25 @@
 
 ## Wallpaper Theming Engine
 <p float="left">
-  <img src="preview/3" width="48%" />
-  <img src="preview/14" width="48%" />
-  <img src="preview/11" width="48%" />
-  <img src="preview/12" width="48%" />
+  <img src="preview/3.png" width="48%" />
+  <img src="preview/14.png" width="48%" />
+  <img src="preview/11.png" width="48%" />
+  <img src="preview/12.png" width="48%" />
 </p>
 
 ## Terminal Based UI
 <p float="left">
-  <img src="preview/5" width="48%" />
-  <img src="preview/6" width="48%" />
-  <img src="preview/7" width="96%" />
+  <img src="preview/5.png" width="48%" />
+  <img src="preview/6.png" width="48%" />
+  <img src="preview/7.png" width="96%" />
 </p>
 
 ## Simplistic by Design
 <p float="left">
-  <img src="preview/8" width="48%" />
-  <img src="preview/9" width="48%" />
-  <img src="preview/17" width="48%" />
-    <img src="preview/18" width="48%" />
+  <img src="preview/8.png" width="48%" />
+  <img src="preview/9.png" width="48%" />
+  <img src="preview/17.png" width="48%" />
+    <img src="preview/18.png" width="48%" />
 </p>
 
 ---
