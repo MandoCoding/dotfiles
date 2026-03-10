@@ -1,8 +1,6 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&pause=1000&color=FFFFFF&center=true&vCenter=true&width=1000&lines=Mando's+Dotfiles;A+Streamlined+UNIX+Environment)](https://git.io/typing-svg)
 
-![description](preview/3)
-
-## Wallpaper Theming Engine
+## Hyprland OSD
 <p float="left">
   <img src="preview/3.png" width="48%" />
   <img src="preview/14.png" width="48%" />
@@ -10,19 +8,14 @@
   <img src="preview/12.png" width="48%" />
 </p>
 
-## Terminal Based UI
+## Terminal First UI
 <p float="left">
-  <img src="preview/5.png" width="48%" />
-  <img src="preview/6.png" width="48%" />
-  <img src="preview/7.png" width="96%" />
+  <img src="preview/tui.png" width="96%" />
 </p>
 
-## Simplistic by Design
+## GTK-4 Design
 <p float="left">
-  <img src="preview/8.png" width="48%" />
-  <img src="preview/9.png" width="48%" />
-  <img src="preview/17.png" width="48%" />
-    <img src="preview/18.png" width="48%" />
+  <img src="preview/gtk-2.png" width="96%" />
 </p>
 
 ---
